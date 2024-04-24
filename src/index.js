@@ -2,7 +2,6 @@
 
 import dotenv from "dotenv";
 import connectDB from "./db/index.js";
-import { error } from "jquery";
 
 dotenv.config({
   path: "./env",
